@@ -1,0 +1,8 @@
+<!-- Libros lleva el + porque pueden haber 1 o más libros -->
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo, autor, año, precio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>

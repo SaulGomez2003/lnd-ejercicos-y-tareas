@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Personas SYSTEM "personal.dtd">
+<Personas>
+    <ID>
+         <Nombre>Juan</Nombre>
+         <Apellidos>Pérez López</Apellidos>
+         <Teléfono>123456789</Teléfono>
+         <Email>juan.perez@example.com</Email>
+         <Vía>Calle</Vía>
+         <Nom.Vía>Gran Vía</Nom.Vía>
+         <Número>100</Número>
+    </ID>
+
+    <ID>
+         <Nombre>María</Nombre>
+         <Apellidos>García Fernández</Apellidos>
+         <Teléfono>987654321</Teléfono>
+         <Email>maria.garcia@example.com</Email>
+         <Vía>Avenida</Vía>
+         <Nom.Vía>Constitución</Nom.Vía>
+         <Número>50</Número>
+    </ID>
+    <ID>
+         <Nombre>Carlos</Nombre>
+         <Apellidos>López Martínez</Apellidos>
+         <Teléfono>1122334455</Teléfono>
+         <Email>carlos.lopez@example.com</Email>
+         <Vía>Calle</Vía>
+         <Nom.Vía>Serrano</Nom.Vía>
+         <Número>35</Número>
+    </ID>
+    <ID>
+         <Nombre>Ana</Nombre>
+         <Apellidos>Ruiz Sánchez</Apellidos>
+         <Teléfono>2233445566</Teléfono>
+         <Email>ana.ruiz@example.com</Email>
+         <Vía>Plaza</Vía>
+         <Nom.Vía>Mayor</Nom.Vía>
+         <Número>10</Número>
+    </ID>
+    <ID>
+         <Nombre>Laura</Nombre>
+         <Apellidos>Torres Gómez</Apellidos>
+         <Teléfono>3344556677</Teléfono>
+         <Email>laura.torres@example.com</Email>
+         <Vía>Camino</Vía>
+         <Nom.Vía>El Prado</Nom.Vía>
+         <Número>8</Número>
+    </ID>
+</Personas>

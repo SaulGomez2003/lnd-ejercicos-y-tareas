@@ -1,0 +1,40 @@
+<!ELEMENT Factura (Fecha, Número, Fecha_de_vencimiento, Cliente, Empresa, Listado, Base_Disponible, IVA, IRPF, TOTAL, Comentarios, Pago_por_transferencia)>
+
+<!ELEMENT Fecha (#PCDATA)>
+<!ELEMENT Número (#PCDATA)>
+<!ELEMENT Fecha_de_vencimiento (#PCDATA)>
+
+<!ELEMENT Cliente (Nombre, Dirección, NIF, CP, Ciudad, Email)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Dirección (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Empresa (Dirección, CIF, CP, Ciudad, Email)>
+<!ELEMENT CIF (#PCDATA)>
+
+
+<!ELEMENT Listado (Producto+)>
+<!ELEMENT Producto (Unidades, Precio_Unitario, Precio)>
+<!ELEMENT Unidades (#PCDATA)>
+<!ATTLIST Precio_Unitario moneda CDATA #REQUIRED>
+<!ELEMENT Precio_Unitario (#PCDATA)>
+<!ATTLIST Precio moneda CDATA #REQUIRED>
+<!ELEMENT Precio (#PCDATA)>
+
+<!ATTLIST Base_Disponible moneda CDATA #REQUIRED>
+<!ELEMENT Base_Disponible (#PCDATA)>
+
+<!ATTLIST IVA moneda CDATA #REQUIRED>
+<!ELEMENT IVA (#PCDATA)>
+
+<!ATTLIST IRPF moneda CDATA #REQUIRED>
+<!ELEMENT IRPF (#PCDATA)>
+
+<!ATTLIST TOTAL moneda CDATA #REQUIRED>
+<!ELEMENT TOTAL (#PCDATA)>
+
+<!ELEMENT Comentarios (#PCDATA)>
+<!ELEMENT Pago_por_transferencia (#PCDATA)>

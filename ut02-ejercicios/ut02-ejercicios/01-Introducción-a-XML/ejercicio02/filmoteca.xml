@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Filmoteca SYSTEM "filmoteca.dtd">
+<Filmoteca>
+    <Película>
+         <Titulo>El viaje Fantástico</Titulo>
+         <Director>Pedro González</Director>
+         <Año>2020</Año>
+         <Duración unidad="min">120</Duración>
+         <Género>Ciencia Ficción</Género>
+         <Calificación>PG</Calificación>
+    </Película>
+
+    <Película>
+         <Titulo>La Venganza del Dragón</Titulo>
+         <Director>Ana Martínez</Director>
+         <Año>2019</Año>
+         <Duración unidad="min">140</Duración>
+         <Género>Acción</Género>
+         <Calificación>R</Calificación>
+    </Película>
+
+    <Película>
+         <Titulo>La Aventura del Tiempo</Titulo>
+         <Director>José Sánchez</Director>
+         <Año>2018</Año>
+         <Duración unidad="min">115</Duración>
+         <Género>Aventura</Género>
+         <Calificación>PG-13</Calificación>
+    </Película>
+        
+    <Película>
+         <Titulo>Misterios del Universo</Titulo>
+         <Director>Laura López</Director>
+         <Año>2021</Año>
+         <Duración unidad="min">130</Duración>
+         <Género>Documental</Género>
+         <Calificación>G</Calificación>
+    </Película>
+
+    <Película>
+         <Titulo>Un Viaje Extraordinario</Titulo>
+         <Director>Marta Fernández</Director>
+         <Año>2017</Año>
+         <Duración unidad="min">100</Duración>
+         <Género>Drama</Género>
+         <Calificación>PG</Calificación>
+    </Película>
+
+</Filmoteca>

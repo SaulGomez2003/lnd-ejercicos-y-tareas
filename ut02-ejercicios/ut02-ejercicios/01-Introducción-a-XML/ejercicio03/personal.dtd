@@ -1,0 +1,10 @@
+
+<!ELEMENT Personas (ID+)>
+<!ELEMENT ID (Nombre, Apellidos, Teléfono, Email, Vía, Nom.Vía, Número)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Teléfono (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Vía (#PCDATA)>
+<!ELEMENT Nom.Vía (#PCDATA)>
+<!ELEMENT Número (#PCDATA)>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="estudiantes.xsd">
+
+    <Persona>
+        <Nombre>Juan</Nombre>
+        <Apellidos>Pérez López</Apellidos>
+        <Matrícula>1234567</Matrícula>
+        <F.Inscripción>2020-09-01</F.Inscripción>
+        <Correo>juan.perez@email.com</Correo>
+        <Teléfono-1>1234567890</Teléfono-1>
+        <Teléfono-2>9876543210</Teléfono-2>
+    </Persona>
+    <Persona>
+        <Nombre>María</Nombre>
+        <Apellidos>García Morales</Apellidos>
+        <Matrícula>2345678</Matrícula>
+        <F.Inscripción>2021-06-15</F.Inscripción>
+        <Correo>maria.garcia@email.com</Correo>
+        <Teléfono-1>1234509876</Teléfono-1>
+        <Teléfono-2>5432167890</Teléfono-2>
+    </Persona>
+    <Persona>
+        <Nombre>Pedro</Nombre>
+        <Apellidos>Fernández Ruiz</Apellidos>
+        <Matrícula>3456789</Matrícula>
+        <F.Inscripción>2019-11-20</F.Inscripción>
+        <Correo>pedro.fernandez@email.com</Correo>
+        <Teléfono-1>3456789012</Teléfono-1>
+    </Persona>
+    <Persona>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Sánchez Torres</Apellidos>
+        <Matrícula>4567890</Matrícula>
+        <F.Inscripción>2022-03-10</F.Inscripción>
+        <Correo>ana.sanchez@email.com</Correo>
+        <Teléfono-1>4567890123</Teléfono-1>
+        <Teléfono-2>7890123456</Teléfono-2>
+    </Persona>
+    <Persona>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Martínez Gómez</Apellidos>
+        <Matrícula>5678901</Matrícula>
+        <F.Inscripción>2023-01-05</F.Inscripción>
+        <Correo>luis.martinez@email.com</Correo>
+        <Teléfono-1>8901234567</Teléfono-1>
+        <Teléfono-2>2345678901</Teléfono-2>
+    </Persona>    
+
+</estudiantes>

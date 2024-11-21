@@ -1,0 +1,10 @@
+
+<!ELEMENT Máquinas_Virtuales (ID+)>
+<!ELEMENT ID (Nombre, CPU, RAM, Nom.Disco, Disco, Adaptador_de_red)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT RAM (#PCDATA)>
+<!ELEMENT Nom.Disco (#PCDATA)>
+<!ELEMENT Disco (#PCDATA)>
+<!ATTLIST Disco tamaño ID #REQUIRED>
+<!ELEMENT Adaptador_de_red (#PCDATA)>

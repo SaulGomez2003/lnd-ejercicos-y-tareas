@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Factura SYSTEM "factura.dtd">
+
+<Factura>
+    <Fecha>17/04/2024</Fecha>
+    <Número>2024-0001</Número>
+    <Fecha_de_vencimiento>17/05/2024</Fecha_de_vencimiento>
+    
+    <Cliente>
+         <Nombre>Orlando Juan Lobán</Nombre>
+         <Dirección>Avenida Rosario 2, 1 A</Dirección>
+         <NIF>39000001A</NIF>
+         <CP>08001</CP>
+         <Ciudad>Barcelona</Ciudad>
+         <Email>info@orlanjuan.es</Email>
+    </Cliente>
+    <Empresa>
+         <Dirección>Calle San Juan de la Luz, s/n</Dirección>
+         <CIF>B12345678</CIF>
+         <CP>28001</CP>
+         <Ciudad>Madrid</Ciudad>
+         <Email>info@empresalogisitasl.com</Email>
+    </Empresa>
+
+    <Listado>
+        <Producto>
+             <Unidades>2</Unidades>
+             <Precio_Unitario moneda="EUR">100.00</Precio_Unitario>
+             <Precio moneda="EUR">200.00</Precio>
+        </Producto>
+        
+        <Producto>
+             <Unidades>4</Unidades>
+             <Precio_Unitario moneda="EUR">150.00</Precio_Unitario>
+             <Precio moneda="EUR">600.00</Precio>
+        </Producto>
+        
+        <Producto>
+             <Unidades>7</Unidades>
+             <Precio_Unitario moneda="EUR">93.00</Precio_Unitario>
+             <Precio moneda="EUR">651.00</Precio>
+        </Producto>
+    </Listado>
+
+    <Base_Disponible moneda="EUR">1.451</Base_Disponible>
+    <IVA moneda="EUR">304,71</IVA>
+    <IRPF moneda="EUR">-217,65</IRPF>
+    <TOTAL moneda="EUR">1.538,06</TOTAL>
+
+    <Comentarios></Comentarios>
+    <Pago_por_transferencia>ESXXXXXXXXXXXXXXXXX9</Pago_por_transferencia>
+</Factura>
