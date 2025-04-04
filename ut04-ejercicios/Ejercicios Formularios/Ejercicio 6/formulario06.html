@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 06</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Preferencias</legend>
+
+            <label>Elija una fecha:</label>
+            <input type="date" name="fecha"><br>
+            <label>Elija una hora:</label>
+            <input type="time" id="hora" name="hora"><br>
+            <label>Elegir un fichero:</label>
+            <input type="file" id="archivo" name="archivo"><br>
+
+            <select name="lenguaje" multiple>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="visual_basic">Visual Basic</option>
+                <option value="java">Java</option>
+            </select><br>
+
+            <label>Elija color:</label>
+            <input type="color" name="color"><br>
+
+            <input type="checkbox" name="hardware" value="hardwaremonitor_led">
+            <label>Monitor LED</label><br>
+            
+            <input type="checkbox" name="hardware" value="hardwaressd">
+            <label>SSD</label><br><br>
+
+            <textarea name="comentarios" rows="5" cols="48">Inserte aqui el texto</textarea><br>
+
+            <label>Instituto</label>
+            <input type="text" name="instituto">
+            <br>
+    
+            <label>Estudios elegidos</label>
+            <input type="text" name="estudios">
+            <br>
+
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+    
+            <label>Apellidos</label>
+            <input type="text" name="apellidos">
+            <br>
+
+            <label>Email</label>
+            <input type="text" name="email"><br>
+            <br>
+
+            <input type="radio" name="conector" value="conectorusb">
+            <label>USB</label><br>
+
+            <input type="radio" name="conector" value="conectorparalelo">
+            <label>Paralelo</label><br>
+
+            <input type="radio" name="conector" value="conectorps2">
+            <label>PS2</label><br>
+        </fieldset>
+    </form>
+</body>
+</html>

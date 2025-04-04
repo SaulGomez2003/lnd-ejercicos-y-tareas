@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 03</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Completar</legend>
+
+            <label>Elija color:</label>
+            <input type="color" name="color"><br>
+            <textarea name="comentarios" rows="5" cols="53">Por favor, escriba aquí</textarea><br><br>
+
+            <select name="lenguaje">
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+            </select><br><br>
+
+            <legend>Indique sus preferencias por favor</legend>
+            <input type="radio" name="ciclo" value="cicloasir">
+            <label>ASIR</label>
+            
+            <input type="radio" name="ciclo" value="ciclodam">
+            <label>DAM</label>
+            
+            <input type="radio" name="ciclo" value="ciclodaw">
+            <label>DAW</label><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Rellene las opciones siguientes</legend>
+
+        <label>Elija una fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label>Elegir un fichero:</label>
+        <input type="file" id="archivo" name="archivo"><br>
+
+        <select name="ciclo" multiple>
+            <option value="smir">SMIR</option>
+            <option value="asir">ASIR</option>
+            <option value="dam">DAM</option>
+            <option value="daw">DAW</option>
+        </select>
+        <br>
+
+        </fieldset>
+    </form>
+</body>
+</html>

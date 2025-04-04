@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 05</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Completar</legend>
+
+            <label>Elija color:</label>
+            <input type="color" name="color"><br>
+
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+    
+            <label>Apellidos</label>
+            <input type="text" name="apellidos">
+            <br>
+
+            <label>Teléfono</label>
+            <input type="text" name="telefono"><br>
+            <br>
+
+            <input type="checkbox" name="asignatura" value="asignaturalengua">
+            <label>Lengua</label>
+            
+            <input type="checkbox" name="asignatura" value="asignaturamatematicas">
+            <label>Matemáticas</label>
+            
+            <input type="checkbox" name="asignatura" value="asignaturahistoria">
+            <label>Historia</label>
+
+            <input type="checkbox" name="asignatura" value="asignaturageografia">
+            <label>Geografía</label><br>
+
+            <label>Elegir un fichero:</label>
+            <input type="file" id="archivo" name="archivo"><br>
+
+            <textarea name="comentarios" rows="4" cols="57">Utilice este cuadro para escribir</textarea><br>
+
+            <input type="radio" name="formato" value="formatojpg">
+            <label>JPG</label>
+
+            <input type="radio" name="formato" value="formatopng">
+            <label>PNG</label><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Completar</legend>
+
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+    
+            <label>Apellidos</label>
+            <input type="text" name="apellidos">
+            <br>
+
+            <label>Dirección</label>
+            <input type="text" name="direccion"><br>
+            <br>
+
+            <label>Elija una fecha:</label>
+            <input type="date" name="fecha"><br><br>
+
+            <select name="conector" multiple>
+                <option value="usb">USB</option>
+                <option value="parelelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select><br>
+
+            <label>Elegir un fichero:</label>
+            <input type="file" id="archivo" name="archivo"><br>
+
+        </fieldset>
+    </form>
+</body>
+</html>
